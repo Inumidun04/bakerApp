@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.genLayout{
+    max-width: 1300px;
+    margin: auto;
+}
+header{
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100%;
+    background-color: #f3e0c7;
+    font-family: "Playfair Display", serif;
+}
+.theNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+    font-size: larger;
+    font-weight: 400;
+}
+.firstNav{
+    gap: 2rem;
+}
+.navMiddle > a{
+    color: black;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.navButton > button{
+width: 110px;
+padding-left: .5rem;
+padding-right: .5rem;
+margin: auto;
+padding-block: 1rem;
+border: 1px solid black;
+border-radius: 25px;
+background-color: #f3e0c7;
+font-size: 1rem;
+}
