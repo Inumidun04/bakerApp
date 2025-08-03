@@ -41,3 +41,40 @@ border-radius: 25px;
 background-color: #f3e0c7;
 font-size: 1rem;
 }
+.headerCon{
+padding-block: 3rem;
+}
+.headerCon>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 400;
+    padding-block: .7rem;
+}
+.headerCon>h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-block: .7rem;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button>button{
+    background-color: rgb(48 112 113);
+    width: 200px;
+padding-left: 1rem;
+padding-right: 1rem;
+margin: auto;
+padding-block: 1rem;
+border: 1px solid black;
+border-radius: 25px;
+font-size: 1rem;
+color: #fff;
+}
