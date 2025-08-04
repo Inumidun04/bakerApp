@@ -78,3 +78,110 @@ border-radius: 25px;
 font-size: 1rem;
 color: #fff;
 }
+.firstSection{
+    padding-block: 3rem;
+}
+.firstMain>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 2rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.firstMain>h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-size: 2rem;
+    font-weight: 300;
+    padding-block: .7rem;
+    text-align: center;
+}
+.orderOnline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1.5rem;
+}
+.orderOnline>button{
+    background-color: rgb(53 27 19);
+    width: 200px;
+padding-left: 1rem;
+padding-right: 1rem;
+margin: auto;
+padding-block: 1rem;
+border: 1px solid black;
+border-radius: 25px;
+font-size: 1rem;
+color: #fff;
+}
+.imgCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     max-width: 1300px;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+.breads>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.breads>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: .5rem;
+    text-align: center;
+}
+.cakes>h2{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 900; 
+}
+.pastries>h2{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 900; 
+}
+.cookiesAndTreats>h2{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 900; 
+}
+.cakes>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: .5rem;
+    text-align: center; 
+}
+.pastries>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: .5rem;
+    text-align: center; 
+}
+.cookiesAndTreats>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: .5rem;
+    text-align: center; 
+}
