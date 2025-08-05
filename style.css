@@ -81,6 +81,9 @@ color: #fff;
 .firstSection{
     padding-block: 3rem;
 }
+main{
+    font-family: "Playfair Display", serif;
+}
 .firstMain>h1{
     display: flex;
     align-items: center;
@@ -237,4 +240,108 @@ color: #fff;
     padding-bottom: 1rem;
     color: rgb(53 27 19);
 
+}
+.cakeImg{
+    display: flex;
+    justify-content: end;
+}
+.thirdSec{
+    background-color: rgb(67 35 76);
+    /* border: 2px solid black; */
+    height: 80vh;
+}
+.imgWrapper{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   padding-block: 1rem;
+   gap: 24rem;
+   /* border: 2px solid; */
+}
+.cakeImg{
+    /* border: 2px solid; */
+}
+.localCon>h1{
+    color: #fff;
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+    gap: 1rem;
+    float: top;
+}
+.localCon>p{
+    color: #fff;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+
+}
+.localCon{
+    padding-bottom: 2rem;
+}
+.localCon>button{
+     background-color: rgb(244 224 198);
+    width: 130px;
+padding-left: .7rem;
+padding-right: .7rem;
+margin: auto;
+padding-block: 1rem;
+border: 1px solid black;
+border-radius: 25px;
+font-size: 1rem;
+color: black;
+}
+.imgButton{
+    /* border: 1px solid; */
+    height: 60vh;
+    background-image: url(./image/WhatsApp_Image_2025-08-05_at_13.22.54_97b47eaa-removebg-preview.png);
+}
+.imgButton>button{
+    gap: 3rem;
+     background-color: rgb(119 102 124);
+    width: 440px;
+/* margin: auto; */
+margin-top: 22rem;
+padding-block: 1rem;
+/* border: 1px solid black; */
+outline: none;
+border-radius: 5px;
+font-size: 1rem;
+color: black;
+}
+.imgButton>button>span{
+    padding-right: .6rem;
+    padding-left: .6rem;
+    border: 2px  white;
+    background-color: #fff;
+    border-radius: 100%;
+    padding-block: .6rem;
+    margin-left: 2.1rem;
+    margin-right: 2.1rem;
+    
+    
+}
+.fouthSec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 2rem;
+    padding-bottom: 3REM;
+}
+.davidT{
+    padding-bottom: 1rem;
+}
+.davidT>h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-top: rem;
+}
+.jakeM>h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-top: rem;
+}
+.amandaL>h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-top: rem;
 }
