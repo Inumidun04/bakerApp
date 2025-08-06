@@ -260,6 +260,7 @@ color: #fff;
 }
 .cakeImg{
     /* border: 2px solid; */
+    padding-right: 1rem;
 }
 .localCon>h1{
     color: #fff;
@@ -344,4 +345,70 @@ color: black;
     font-size: 1.3rem;
     font-weight: 700;
     padding-top: rem;
+}
+.fifthSec{
+    /* border: 2px solid ; */
+    height: 60vh;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQP5IktvZrH4_OTIVnr8iOtZmQxGKNCguR_m7tEGVqLqCR-CwC_);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11rem;
+}
+.custom>h1{
+   font-size: 2.7rem;
+    font-weight: 400;
+    padding-block: 1rem; 
+    color: #fff; 
+}
+.custom>p{
+   font-size: 1.7rem;
+    font-weight: 400;
+    padding-block: .7rem;  
+    text-align: center;
+    color: #fff;
+}
+.custom>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(48 112 113);
+    width: 200px;
+padding-left: 1rem;
+padding-right: 1rem;
+margin: auto;
+padding-block: 1rem;
+/* border: 1px solid black; */
+border-radius: 25px;
+font-size: 1rem;
+color: #fff;
+border-bottom: 2px;
+border-left: 2px;
+border-right: 2px;
+margin-top: 2REM;
+}
+.lastImg{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+.veganImg>p{
+    padding-top: .5rem;
+    color: #fff;
+    text-align: center;
+}
+.lastCake>p{
+    padding-top: .5rem;
+    color: #fff;
+    text-align: center;
+}
+.cupCake>p{
+    padding-top: .5rem;
+    color: #fff;
+    text-align: center;
 }
