@@ -412,3 +412,45 @@ margin-top: 2REM;
     color: #fff;
     text-align: center;
 }
+footer{
+    /* border: 2px solid ; */
+    height: 35vh;
+}
+.bakery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    padding-block: rem;
+}
+.bakery>h1{
+    padding-bottom: 1.5rem;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.aboutUs{
+    padding-top: 3rem;
+    /* gap: 2rem; */
+}
+.aboutUs>span>h3{
+    font-weight: 300;
+}
+.location{
+    padding-top: 3rem;
+}
+.location>span>h3{
+    font-weight: 300;
+}
+.stayConn{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    
+}
+.stayConn>h1{
+font-weight: 100;
+}
+.stayConn>span>a,img{
+    color: black;
+    margin-left: .3rem;
+}
